@@ -1,0 +1,10 @@
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    implementation(name:'estimote-sdk', ext:'aar')
+}
